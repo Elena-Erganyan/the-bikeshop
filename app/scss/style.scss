@@ -344,6 +344,10 @@
 
 .item {
 
+    &__img img {
+        width: 470px;
+    }
+
     &__description {
         display: flex;
         justify-content: space-between;
@@ -847,7 +851,7 @@
 
     .item {
 
-        width: 300px;
+        width: 290px;
     
         &__img {
            transform: scale(0.6) translateX(-95px);
